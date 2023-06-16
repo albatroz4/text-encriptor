@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon" />
+        <link rel="stylesheet" href="style.css">        
+        <script src="https://kit.fontawesome.com/39d6502fb0.js"></script>
+        <title>Encriptador de Texto</title>
+    </head>
+    <body>
+        <main class="contenedor-principal">
+            <img src="/img/logo.png" id="logo" alt="logo">
+            <div class="tarjeta num1">
+                <input type="text" id="mensaje" placeholder="Ingresa el texto aquí">
+                <div class="contenedor-errores"></div>
+                <div class="contenedor-terminos">
+                    <img src="./img/warning (1).png" alt="warning (1)">
+                    <p>Solo letras minúsculas y sin acentos.</p>
+                </div>
+                <div class="contenedor-botones">
+                    <button type="button" id="encriptar">Encriptar</button>
+                    <button type="button" id="desencriptar">Desencriptar</button>
+                </div>
+            </div>
+            <div class="tarjeta2">
+                <div class="contenedor-muñeco">
+                    <img src="/img/muñeco.png" id="imagen" alt="muñeco">
+                </div>
+                <div class="contenedor-h3">
+                    <h3 id="h3">Ningún mensaje fue <br> encontrado</h3>
+                </div>
+                <div class="contenedor-parrafo">
+                    <p id="parrafo">Ingresa el texto que deseas encriptar o <br> desencriptar</p>
+                </div>
+                <input type="text" 
+                id="resultado"  
+                placeholder="Resultado...">
+                <button type="button" id="copiar">Copiar</button>
+                <button type="button" id="escuchar">Escuchar</button>
+            </div>
+        </main>    
+    </body>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="perfil">
+                <h5>SOBRE MI</h5>
+                <p>© 2023 - Aida Barragan Troncoso</p>
+                <p>Teléfono: 312-4482323 | Email: aidabarragan3@gmail.com</p>   
+            </div>
+            <div class="social">
+                <h5>SIGUEME</h5>
+                <ul>
+                    <li><i class="fab fa-facebook-f"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-linkedin-in"></i></li>
+                </ul>
+            </div>    
+        </div>    
+    </footer>
+    <script src="index.js"></script>
+</html>
